@@ -1,0 +1,23 @@
+[
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034436/games/games%20platforms/switchConsole_hont4k.jpg",
+    "title": "Switch",
+    "platform": "SWITCH",
+    "price": 499.99,
+    "quantity": 50
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034428/games/games%20platforms/xbox_rm2znt.jpg",
+    "title": "Xbox One",
+    "platform": "XBOX",
+    "price": 499.99,
+    "quantity": 50
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034402/games/games%20platforms/ps4console_zeztla.jpg",
+    "title": "PS4",
+    "platform": "PS4",
+    "price": 499.99,
+    "quantity": 30
+  }
+]

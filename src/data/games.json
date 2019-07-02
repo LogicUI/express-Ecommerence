@@ -1,0 +1,82 @@
+[
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034546/games/ps4%20games/dollhouse_zwczhn.jpg",
+    "platform": "PS4",
+    "title": "DollHouse",
+    "price": 52.5,
+    "promo": false,
+    "quantity": 10
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034541/games/ps4%20games/sekiro_shadows_hcsvyi.jpg",
+    "platform": "PS4",
+    "title": "Seikio Shadow Die Twice",
+    "price": 62.5,
+    "promo": true,
+    "quantity": 10
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034541/games/ps4%20games/devilMayCry5_ppkopz.jpg",
+    "platform": "PS4",
+    "title": "Devil May Cry 5",
+    "price": 52.5,
+    "promo": true,
+    "quantity": 0
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034540/games/ps4%20games/daysgone_abzqgr.jpg",
+    "platform": "PS4",
+    "title": "Days Gone",
+    "price": 62.5,
+    "promo": false,
+    "quantity": 20
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034520/games/switchGames/supersmashbros_h29krk.jpg",
+    "platform": "SWITCH",
+    "title": "Super Smash Bros",
+    "price": 53.5,
+    "promo": true,
+    "quantity": 10
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034509/games/switchGames/superMarioParty_w5fhnj.jpg",
+    "platform": "SWITCH",
+    "title": "Super Mario Party",
+    "price": 51.5,
+    "promo": false,
+    "quantity": 15
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562039848/games/switchGames/zelda_dk9ivg.jpg",
+    "platform": "SWITCH",
+    "title": "Zelda Breath Of The Wild",
+    "price": 52.5,
+    "promo": false,
+    "quantity": 12
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562039859/games/switchGames/megaman_hostu7.jpg",
+    "platform": "SWITCH",
+    "title": "Megaman 11",
+    "price": 51.5,
+    "promo": false,
+    "quantity": 13
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034617/games/xbox%20games/gamesofwar_efooht.jpg",
+    "platform": "XBOX",
+    "title": "Gears Of War",
+    "price": 63.5,
+    "promo": false,
+    "quantity": 14
+  },
+  {
+    "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034617/games/xbox%20games/crackdown3_qzvufm.jpg",
+    "platform": "XBOX",
+    "title": "Crackdown 3",
+    "price": 53.5,
+    "promo": false,
+    "quantity": 15
+  }
+]
