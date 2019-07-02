@@ -9,4 +9,4 @@ const consoleSchema = Schema({
   quantity: { type: Number, required: true }
 });
 
-module.exports = mongoose.model('consoles', consoleSchema);
+module.exports = mongoose.model('console', consoleSchema);

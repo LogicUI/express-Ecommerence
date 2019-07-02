@@ -10,4 +10,4 @@ const gamesSchema = Schema({
   promo: { type: Boolean, required: true }
 });
 
-module.exports = mongoose.model('games', gamesSchema);
+module.exports = mongoose.model('game', gamesSchema);

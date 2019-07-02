@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
+require('dotenv').config();
 
-dotenv.config();
-const dbUrl = global.__MONGO_URI__ || process.env.DB_CONNECT;
-mongoose.connect(dbUrl, { useNewUrlParser: true });
+const dbUrl = global.__MONGO_URI__ || process.env.MONGODB_URI;
+mongoose.connect(dbUrl, {
+  useNewUrlParser: true
+});
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
