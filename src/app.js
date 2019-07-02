@@ -18,6 +18,6 @@ app.use('/preOrders', preOrderRoute);
 app.use('/videos', videosRoute);
 app.use('/home', homesRoute);
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log(`Server is listening on Port ${PORT}`);
 });
