@@ -4,6 +4,7 @@
     "title": "Switch",
     "platform": "SWITCH",
     "price": 499.99,
+    "type": "console",
     "quantity": 50
   },
   {
@@ -11,6 +12,7 @@
     "title": "Xbox One",
     "platform": "XBOX",
     "price": 499.99,
+    "type": "console",    
     "quantity": 50
   },
   {
@@ -18,6 +20,7 @@
     "title": "PS4",
     "platform": "PS4",
     "price": 499.99,
+    "type": "console",     
     "quantity": 30
   }
 ]

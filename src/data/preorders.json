@@ -3,19 +3,21 @@
     "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034788/games/preorder/borderlands3pre_scwchp.jpg",
     "title": "CyberPunk77",
     "platform": "All",
-    "release": "16 April 2020"
+    "release": "16 April 2020",
+    "preOrderPrice": "S$69.00"
   },
   {
     "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034788/games/preorder/borderlands3pre_scwchp.jpg",
     "title": "Borderlands 3",
     "platform": "All",
-    "release": "13 September 2019"
+    "release": "13 September 2019",
+    "preOrderPrice": "$79.99 "
   },
   {
     "image": "https://res.cloudinary.com/doxltthed/image/upload/v1562034497/games/switchGames/sword_and_shield_nbszce.jpg",
     "title": "Pokemon Sword And Shield",
     "platform": "SWITCH",
     "release": "15 November 2019",
-    "PreOrderPrice": "$99.99(Normal Price $120) for twin bundle"
+    "preOrderPrice": "$99.99(Normal Price $120) for twin bundle"
   }
 ]

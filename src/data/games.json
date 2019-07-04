@@ -5,6 +5,7 @@
     "title": "DollHouse",
     "price": 52.5,
     "promo": false,
+    "type": "games",
     "quantity": 10
   },
   {
@@ -13,6 +14,7 @@
     "title": "Seikio Shadow Die Twice",
     "price": 62.5,
     "promo": true,
+    "type": "games",
     "quantity": 10
   },
   {
@@ -21,6 +23,7 @@
     "title": "Devil May Cry 5",
     "price": 52.5,
     "promo": true,
+    "type": "games",
     "quantity": 0
   },
   {
@@ -28,6 +31,7 @@
     "platform": "PS4",
     "title": "Days Gone",
     "price": 62.5,
+    "type": "games",
     "promo": false,
     "quantity": 20
   },
@@ -37,6 +41,7 @@
     "title": "Super Smash Bros",
     "price": 53.5,
     "promo": true,
+    "type": "games",
     "quantity": 10
   },
   {
@@ -45,6 +50,7 @@
     "title": "Super Mario Party",
     "price": 51.5,
     "promo": false,
+    "type": "games",
     "quantity": 15
   },
   {
@@ -53,6 +59,7 @@
     "title": "Zelda Breath Of The Wild",
     "price": 52.5,
     "promo": false,
+    "type": "games",
     "quantity": 12
   },
   {
@@ -61,6 +68,7 @@
     "title": "Megaman 11",
     "price": 51.5,
     "promo": false,
+    "type": "games",
     "quantity": 13
   },
   {
@@ -69,6 +77,7 @@
     "title": "Gears Of War",
     "price": 63.5,
     "promo": false,
+    "type": "games",
     "quantity": 14
   },
   {
@@ -77,6 +86,7 @@
     "title": "Crackdown 3",
     "price": 53.5,
     "promo": false,
+    "type": "games",
     "quantity": 15
   }
 ]
