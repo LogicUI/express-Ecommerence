@@ -7,7 +7,7 @@ const findAll = async (req, res) => {
 
 const updateOne = async (req, res) => {
   const { title, quantity } = req.body;
-  console.log(title);
+
   const item = await Games.findOne({ title });
   const newQuantity = item.quantity - quantity;
   const update = { quantity: newQuantity };
