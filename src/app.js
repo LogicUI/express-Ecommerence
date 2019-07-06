@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 require('./db');
 const gamesRoute = require('./routes/games');
 const consoleRoute = require('./routes/consoles');
@@ -21,3 +21,6 @@ app.use('/home', homesRoute);
 app.listen(PORT, () => {
   console.log(`Server is listening on Port ${PORT}`);
 });
+
+
+module.exports = app;

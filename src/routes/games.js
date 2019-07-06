@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const Games = require('../model/games');
 
-router.get('/', async (req, res) => {
-  const games = await Games.find();
-  res.json(games);
-});
+const Ctrl = require('../controllers/gamesCtrl');
+
+router.get('/', Ctrl.findAll);
+router.put('/updateGame', Ctrl.updateOne);
+
 
 module.exports = router;
