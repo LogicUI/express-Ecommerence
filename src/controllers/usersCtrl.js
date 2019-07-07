@@ -1,6 +1,7 @@
 const Users = require('../model/user');
 const handleUserCreate = require('../helpers/handleUserCreate');
 const validation = require('../helpers/validation');
+const validateLogin = require('../helpers/validateLogin');
 const hashHelper = require('../helpers/hashPass');
 
 const createOne = async (req, res, next) => {
@@ -22,8 +23,8 @@ const createOne = async (req, res, next) => {
 
 const findOne = async (req, res, next) => {
   try {
-
-    const { error } = validation(req.body);
+      console.log(req.body);
+    const { error } = validateLogin(req.body);
     if (error) return res.status(400).send(error.details[0].message);
 
     const user = await Users.findOne({ email: req.body.email });

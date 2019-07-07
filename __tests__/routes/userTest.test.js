@@ -105,15 +105,18 @@ describe('Users', () => {
         name: 'john',
         password: '12345678'
       };
+      const mockAuth = {
+        email: 'johnwee35@gmail.com',
+        password: '12345678'
+      };
       await request(app)
         .post('/users/register')
         .send(mockData);
 
       const response = await request(app)
         .post('/users/login')
-        .send(mockData)
+        .send(mockAuth)
         .set('Content-Type', 'application/json');
-
       expect(response.status).toBe(200);
     });
   });
