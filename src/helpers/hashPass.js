@@ -7,6 +7,6 @@ module.exports.hashPassword = async (password) => {
 };
 
 module.exports.decrypt = async (pass, hashPassword) => {
-  const validatePass = await bcrypt.compare(pass, hashPassword);
+  const validatePass = await bycrypt.compare(pass, hashPassword);
   return validatePass;
 };

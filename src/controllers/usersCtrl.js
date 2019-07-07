@@ -5,10 +5,8 @@ const hashHelper = require('../helpers/hashPass');
 
 const createOne = async (req, res, next) => {
   // validate the data before creating user
-
   const { error } = validation(req.body);
   if (error) return res.status(400).send(error.details[0].message);
-
 
   // check if email taken
 
@@ -24,6 +22,7 @@ const createOne = async (req, res, next) => {
 
 const findOne = async (req, res, next) => {
   try {
+
     const { error } = validation(req.body);
     if (error) return res.status(400).send(error.details[0].message);
 
@@ -34,9 +33,13 @@ const findOne = async (req, res, next) => {
       req.body.password,
       user.password
     );
+
     if (!validatePass) return res.status(400).send('Invalid password');
 
-    res.status(200).send('sucessfully login!');
+    res.status(200).json({
+      test: 'sucessfully login!',
+      name: user.name
+    });
   } catch (err) {
     console.log(err);
   }

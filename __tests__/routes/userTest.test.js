@@ -97,5 +97,24 @@ describe('Users', () => {
       );
       expect(response.status).toEqual(400);
     });
+
+    it.only('should be able to authenticate login', async () => {
+      const users = db.collection('users');
+      const mockData = {
+        email: 'johnwee35@gmail.com',
+        name: 'john',
+        password: '12345678'
+      };
+      await request(app)
+        .post('/users/register')
+        .send(mockData);
+
+      const response = await request(app)
+        .post('/users/login')
+        .send(mockData)
+        .set('Content-Type', 'application/json');
+
+      expect(response.status).toBe(200);
+    });
   });
 });
