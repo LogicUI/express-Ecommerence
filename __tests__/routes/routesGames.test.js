@@ -58,7 +58,7 @@ describe('routes', () => {
       ];
       for (let item of itemsToUpdate) {
         const response = await request(app)
-          .put('/games/updateGame')
+          .put('/games/update')
           .send(item)
           .set('Content-Type', 'application/json');
 
