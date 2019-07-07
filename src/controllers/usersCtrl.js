@@ -38,7 +38,7 @@ const findOne = async (req, res, next) => {
     if (!validatePass) return res.status(400).send('Invalid password');
 
     res.status(200).json({
-      test: 'sucessfully login!',
+      text: 'sucessfully login!',
       name: user.name
     });
   } catch (err) {
