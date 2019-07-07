@@ -8,6 +8,8 @@ const consoleRoute = require('./routes/consoles');
 const preOrderRoute = require('./routes/preOrders');
 const videosRoute = require('./routes/videos');
 const homesRoute = require('./routes/home');
+const userRoute = require("./routes/users");
+
 
 app.use(express.json());
 app.use(cors());
@@ -17,6 +19,7 @@ app.use('/consoles', consoleRoute);
 app.use('/preOrders', preOrderRoute);
 app.use('/videos', videosRoute);
 app.use('/home', homesRoute);
+app.use("/users",userRoute);
 
 app.listen(PORT, () => {
   console.log(`Server is listening on Port ${PORT}`);
