@@ -9,8 +9,8 @@ This app was build doing the backend project week where we have to practice buil
 
 ## Repos 
 
-Front : https://github.com/Balancedsan/frontEnd-Ecommerence (this repo)
-Back : https://github.com/Balancedsan/express-Ecommerence
+Front : https://github.com/Balancedsan/frontEnd-Ecommerence 
+Back : https://github.com/Balancedsan/express-Ecommerence (this repo)
 
 # Features
 
